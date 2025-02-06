@@ -1,7 +1,7 @@
-export default function HomePage(){
-    return(
+export default function HomePage() {
+    return (
         <>
-        <h1>Holaa</h1>
+            <h1>Holaa</h1>
         </>
     )
 }
