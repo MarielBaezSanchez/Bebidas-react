@@ -38,7 +38,6 @@ export default function Header() {
   }
   //consultar las recetas
   searchRecipes(searchFilters)
- 
 
 }
 
@@ -64,12 +63,12 @@ export default function Header() {
           onSubmit={handleSubmit}>
             <div className="space-y-4">
               <label
-                htmlFor="ingredients"
+                htmlFor="ingredient"
                 className="block text-white uppercase font-extrabold text-lg">Nombre o ingredientes</label>
               <input
-                id="ingredients"
+                id="ingredient"
                 type="text"
-                name="ingredients"
+                name="ingredient"
                 onChange={handleChange}
                 value={searchFilters.ingredient}
                 className="p-3 w-full rounded-lg focus:outline-none"
